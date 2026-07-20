@@ -13,6 +13,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class TiendaappApplication {
 
     public static void main(String[] args) {
+        System.setProperty("oracle.net.tns_admin", "C:/Wallet_BD01");
                 SpringApplication.run(TiendaappApplication.class, args);
     }
 }
